@@ -10,9 +10,6 @@ var command = process.argv[2];
 var secondCommand = process.argv.slice(3).join(" ");
 var movieName = process.argv.slice(3).join("+");
 
-console.log(command);
-console.log(secondCommand);
-
 var newSpotify = new spotify(keys.spotify);
 var client = new twitter(keys.twitter);
 
